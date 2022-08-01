@@ -1,5 +1,24 @@
 {
   "dependencies": {
+    "bind": "^0.1.7",
+    "dig": "^0.0.6",
     "nodemon": "^2.0.19"
-  }
+  },
+  "name": "portfolio",
+  "description": "A Responsive Free One Page Portfolio Website template",
+  "version": "1.0.0",
+  "main": "modernizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trevor-F83/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trevor-F83/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Trevor-F83/Portfolio#readme"
 }
