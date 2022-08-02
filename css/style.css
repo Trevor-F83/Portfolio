@@ -39,7 +39,8 @@ a:hover,a:focus,a:active {
 	outline:none!important;
 }
 p {
-	color:#8c9398;
+	/* ux research text */
+	color:#FFE800;
 	word-spacing:1px;
 	line-height:25px;
 	font-size:14px;
@@ -58,8 +59,9 @@ h2::after {
 	margin:20px auto;
 }
 h6 {
+	/* ux/ui */
 	font-size:15px;
-	color:#8c8c8c;
+	color:#FFE800;
 	text-transform:uppercase;
 	font-weight:bold;
 }
@@ -603,14 +605,14 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #19e18a;
+	background: #ddfb4a;
 }
 
 .color-bg a {
     color: #FFE800;
 }
 .color-bg h6, .color-bg p {
-    color: white;
+    color: #f06d00;
 }
 .color-bg h6::after{
 	border-color: #fff;
@@ -633,10 +635,10 @@ h1.arrow span {
 	color: #8C8C8C;
 }
 .color-bg h1.arrow span {
-    color: #FFE800;
+    color: #b04700;
 }
 .color-bg h1.arrow {
-    color: #FFF;
+    color: #eaa500;
 }
 /* ==========================================================================Services========================================================================== */
 .services {
