@@ -25,7 +25,7 @@
 	Global Styles
 ========================================================================== */
 a {
-	color: #E04343;
+	color: #3232cd;
 	-webkit-transition:all 0.5s;
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
@@ -34,7 +34,7 @@ a {
 	outline:none!important;
 }
 a:hover,a:focus,a:active {
-	color:#0D0D0D;
+	color:#f903d0;
 	text-decoration:none;
 	outline:none!important;
 }
@@ -53,7 +53,7 @@ h2 {
 }
 h2::after {
 	content:" ";
-	border:solid 1px #CCCCCC;
+	border:solid 1px #3232cd;
 	display:block;
 	width:65px;
 	margin:20px auto;
@@ -286,7 +286,8 @@ table {
 }
 /* ==========================================================================Section Styles========================================================================== */
 .section-padding {
-	padding:90px 0 100px
+	padding:90px 0 100px;
+	background-color: #03f913;
 }
 .dark-bg {
 	background:#f3f5f8;
@@ -295,13 +296,13 @@ table {
 	background-color:#fff;
 }
 .dark-box {
-	background: #F3F5F8;
-	-webkit-box-shadow: 0px 3px 0px 0px #E04343;
-	-moz-box-shadow: 0px 3px 0px 0px #E04343;
-	box-shadow: 0px 3px 0px 0px #E04343;
+	background: #03f913;
+	-webkit-box-shadow: 0px 3px 0px 0px #3232cd;
+	-moz-box-shadow: 0px 3px 0px 0px #3232cd;
+	box-shadow: 0px 3px 0px 0px #3232cd;
 	padding:20px 0;
 }
-.dark-box:hover,.dark-box:focus {
+/* .dark-box:hover,.dark-box:focus {
 	-webkit-box-shadow: 0px 3px 0px 0px #FFE801;
 	-moz-box-shadow: 0px 3px 0px 0px #FFE801;
 	box-shadow: 0px 3px 0px 0px #FFE801;
@@ -310,12 +311,12 @@ table {
 	transition:all 500ms ease-in-out;
 	-webkit-transition:all 500ms ease-in-out;
 	-moz-transition:all 500ms ease-in-out;
-	-o-transition:all 500ms ease-in-out;
+	-o-transition:all 500ms ease-in-out; */
 }
-.box-hover:hover,.box-hover:focus {
+/* .box-hover:hover,.box-hover:focus {
 	transform:translate(0,-15px);
 	-webkit-transform:translate(0,-15px);
-	-ms-transform:translate(0,-15px);
+	-ms-transform:translate(0,-15px); */
 }
 .wrapper {
 	height:650px;
@@ -483,6 +484,7 @@ table {
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
+	max-width: 100%;
 	background-color: #000000;
 }
 .hero h1 {
@@ -587,23 +589,25 @@ table {
 h1.arrow {
 	font-size: 16px;
 	text-transform:uppercase;
-	color:#353535;
+	color:#3232cd;
 	letter-spacing: 4px;
 	background:url('../img/h1-bg.png') no-repeat center bottom;
 	padding-bottom:30px;
 	font-weight: bold;
 }
 h1.arrow span {
-    color: #E04343;
+    color: #f903d0;
 }
 /* ==========================================================================About========================================================================== */
 .about-image {
-	height:400px;
+	height: 400px;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+
 }
+
 .color-bg {
 	background: #ddfb4a;
 }
@@ -612,7 +616,7 @@ h1.arrow span {
     color: #FFE800;
 }
 .color-bg h6, .color-bg p {
-    color: #f06d00;
+    color: #000000;
 }
 .color-bg h6::after{
 	border-color: #fff;
@@ -896,14 +900,14 @@ img.grayscale:hover {
 }
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-	background-color: #00f;
+	background: radial-gradient(#3232cd, #00f);
 	padding:70px 0;
 }
 .outline-btn {
 	display:inline-block;
 	padding:25px 40px;
 	color: #03f913;
-	border: solid 1px #00f;
+	border: solid 1px #3232cd;
 	text-transform:uppercase;
 	font-weight:bold;
 	letter-spacing:1px;
@@ -990,7 +994,7 @@ ul.social-buttons li:last-child {
 }
 .contact-details h2 span {
 	display:block;
-	color:#545454;
+	color:#3232cd;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	font-size:14px;
@@ -1051,14 +1055,14 @@ button,button:focus,button:hover,button:active {
 }
 /* ==========================================================================Footer========================================================================== */
 footer a {
-	color:#a1a9b0;
+	color:#f903d0;
 }
 footer {
-	background-color: linear-gradient(to right, #03f91332, #f903d0b8);
+	background-color: #03f913;
 	padding:40px 0 30px;
 }
 footer p {
-	color: #808080;
+	color:#f903d0;
 }
 /* ==========================================================================FlexSlider Custom CSS========================================================================== */
 #servicesSlider {
